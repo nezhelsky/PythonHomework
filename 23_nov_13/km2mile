@@ -1,7 +1,0 @@
-miles = float(0.621371)
-user_in = input("Input km: ")
-
-user_number = int(user_in)
-km_to_Miles = user_number * miles
-
-print("km_to_miles: ", km_to_Miles)
