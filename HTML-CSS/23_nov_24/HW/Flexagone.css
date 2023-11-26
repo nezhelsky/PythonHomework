@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #dadada;
+    color: black;
+}
+h1{
+    color: #920303;
+    font-size: 24pt;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 10px;
+    border-left: 1px solid #8a8a8a;
+    border-bottom: 1px solid #8a8a8a;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
