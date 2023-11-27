@@ -3,6 +3,5 @@ b = input("Введите количество знаков после запя�
 
 number = float(a)
 digits = int(b)
-
 round_number = round(number, digits)
 print("Округленное значение:", round_number)

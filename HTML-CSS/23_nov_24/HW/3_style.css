@@ -1,0 +1,22 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #ebebeb;
+}
+li{
+    padding: 8px;
+    list-style-position: inside;
+}
+.unchecked{
+    list-style-image: url(unchecked.png);
+    background-color: #a5d8e7;
+    margin-left: 10px;
+    padding: 14px;
+}
+.checked{
+    text-decoration: line-through;
+    list-style-image: url(checked.png);
+    background-color: #dddddd;
+    margin-left: 10px;
+    padding: 14px;
+}

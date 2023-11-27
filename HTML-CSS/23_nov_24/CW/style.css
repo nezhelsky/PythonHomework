@@ -1,0 +1,31 @@
+div{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+.div1{
+    border-radius: 5%;
+    background-color: rgb(118, 171, 201);
+    display: inline-block;
+}
+.div2{
+    border-radius: 5%;
+    background-color: rgb(38, 197, 131);
+    display: inline-block;
+}
+.div3{
+    border-radius: 5%;
+    background-color: rgb(197, 181, 38);
+    display: inline-block;
+}
+.div4{
+    border-radius: 5%;
+    background-color: rgb(197, 38, 65);
+    display: inline-block;
+}

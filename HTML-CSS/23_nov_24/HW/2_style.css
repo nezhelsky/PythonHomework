@@ -1,0 +1,20 @@
+body{
+    background-color: #e07f7f;
+}
+ol{
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'myriad pro';
+    font-size: 14pt;
+}
+span{
+    background-color: #772a2e;
+    margin-left: 10px;
+    padding: 10px;
+}
+li{
+    background-color: #af3d43;
+    margin-bottom: 12px;
+    padding: 8px;
+    list-style-position: inside;
+}

@@ -1,6 +1,6 @@
-a = input("Введите десятичное число: ")
-digit = int(a)
+user_input = input("Введите десятичное число: ")
 
+digit = int(user_input)
 binary = bin(digit)
 octa = oct(digit)
 hexa = hex(digit)
