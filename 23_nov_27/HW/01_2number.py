@@ -21,5 +21,5 @@ while a != b:
     a += 1
     sum += a
 
-print(sum)
+print("Сумма всех чисел диапазона =", sum)
 
