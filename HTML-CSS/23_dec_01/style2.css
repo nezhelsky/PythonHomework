@@ -1,0 +1,19 @@
+.cl1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/20171103-5D4_0646-WEBSITE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.3;
+}
+
+.cl2 {
+    position: inherit;
+    margin: 5%;
+}
+
+p{
+    color: black;
+}
