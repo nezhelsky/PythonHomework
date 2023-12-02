@@ -1,0 +1,15 @@
+div{
+    width: 100hw;
+    height: 5000px;
+    background-color: blueviolet;
+}
+p{
+    height: 400px;
+    background-color: bisque;
+}
+
+a{
+    color: rgb(19, 34, 29);
+    text-decoration: none;
+    font-size: 40px;
+}

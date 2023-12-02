@@ -1,0 +1,34 @@
+.grgr1 {
+    border: 2pt;
+    width: 500px;
+    height: 300px;
+    background-color: yellowgreen;
+}
+
+.grgr2 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border-color: black;
+    background-color: transparent;
+}
+
+.grgr3 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+img {
+    width: 200px;
+    margin: 7px;
+}
