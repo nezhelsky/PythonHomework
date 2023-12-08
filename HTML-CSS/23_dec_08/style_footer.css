@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(78, 164, 170);
+}
+.adress {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 250px;
+    background-color: #3f3f3f;
+}
+
+.footer-text-left{
+    margin-left: 70px;
+    margin-top: 30px;
+    float: left;
+}
+.menu{
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+    color: rgb(165, 158, 148);
+
+}
+.social{
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: small;
+    width: 300px;
+    height: 50px;
+    color: rgb(133, 133, 133);
+}
+.soc1{
+    background-image: url(./links/icons8-facebook.png);
+}
+.soc1:hover {
+    background-image: url(./links/icons8-facebook_gray.png);
+    transform: scale(0.9);
+}

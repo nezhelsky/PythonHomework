@@ -1,0 +1,17 @@
+body{
+    background-color: #ff00bf;
+}
+
+th, td{
+    font-size: 25px;
+    color: #ff00bf;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+    border: 3px solid rgb(38, 0, 255);
+    padding: 15px 30px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}

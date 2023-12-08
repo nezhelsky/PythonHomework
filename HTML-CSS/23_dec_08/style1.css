@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.menu{
+    width: 250vw;
+    height: 70px;
+    background-color: coral;
+}
+
+ul{
+    padding-top: 25px;
+}
+
+li{
+    display: inline;
+    margin: 0 190px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(77, 0, 0);
+}
+.card{
+    float: left; /* или display: inline-block; */
+    width: 350px;
+    height: 300px;
+    background-color: coral;
+    border-radius: 5%;
+    padding: 25px 15px;
+    color: brown;
+    margin: 10px 10px;
+    transition: 0.4s;
+}
+.card:hover{
+    background-color: white;
+    color: coral;
+    border: 2px solid;
+    /* transform: translate(5px,-5px); перемещение */
+    /* transform: skew(-5deg); shear */
+    /* transform: rotate(10deg); вращение */
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+h1,.price
+{
+    text-align: center;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+    margin: 10px 0px;
+    font-size: 19px;
+}
