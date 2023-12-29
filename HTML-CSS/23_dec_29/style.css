@@ -1,0 +1,42 @@
+.blockBoss{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+}
+
+.block1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.block2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(55, 0, 255);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.block3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 76);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.block4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
