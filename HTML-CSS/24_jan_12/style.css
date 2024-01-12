@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    font-family: monospace;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.header__logo{
+    color: red;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul::after{
+    content: url(./magnif.png);
+}
+
+.header__content{
+    width: 100vw;
+    height: 75vh;
+    background-image: url(./temnii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.header__title{
+    font-size: 50px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    padding: 100px 0px 0px 0px;
+}
+
+.header__text{
+    font-family: monospace;
+    letter-spacing: 1px;
+    padding: 20px 0px 100px 0px;
+}
+
+input[type="button"]{
+    margin-top: 0px 15px 0px 15px;
+    padding: 15px 45px;
+    border: 4px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+input[type="button"]:hover{
+    border: 4px solid transparent;
+    background-color: aqua;
+}
+
+
+.about__us{
+    width: 100vw;
+    height: 100px;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    padding: 100px 0px 0px 0px;
+}
+
+.text{
+    font-size: 12px;
+    font-family: monospace;   
+    padding: 10px 200px 90px 200px; 
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex__items{
+    font-size: 13px;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+}
+
